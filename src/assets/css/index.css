@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html, body {
+        font-family: 'DM Sans', sans-serif;
+        /* font-family: 'Noto Sans', sans-serif; */
+    }
+
+    .header-nav {
+        @apply w-full box-border overflow-x-hidden bg-white/50 dark:bg-[#171C22] dark:bg-opacity-20 backdrop-blur border-b-2 border-gray-200 dark:border-[#171C22] -mb-px sticky top-0 z-50 lg:mb-0 lg:border-0;
+    }
+}
